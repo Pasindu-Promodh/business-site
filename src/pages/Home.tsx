@@ -13,25 +13,25 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 const MotionBox = motion(Box);
 
 const services = [
-  { title: "Custom Pantries", img: "https://placehold.co/600x400?text=Pantry" },
-  { title: "Gates & Grills", img: "https://placehold.co/600x400?text=Gate" },
-  { title: "Ceilings", img: "https://placehold.co/600x400?text=Ceiling" },
-  { title: "Sofas & Furniture", img: "https://placehold.co/600x400?text=Sofa" },
+  { title: "Custom Pantries", img: "/business-site/media/pantry.jpg" },
+  { title: "Gates & Grills", img: "/business-site/media/gates.jpg" },
+  { title: "Ceilings", img: "/business-site/media/ceiling.webp" },
+  { title: "Sofas & Furniture", img: "/business-site/media/sofa.jpg" },
   {
     title: "Roofing & Metal Work",
-    img: "https://placehold.co/600x400?text=Roof",
+    img: "/business-site/media/roofing.webp",
   },
   {
     title: "Interior Finishing",
-    img: "https://placehold.co/600x400?text=Interior",
+    img: "/business-site/media/finishing.webp",
   },
 ];
 
 const projects = [
-  "https://placehold.co/400x300?text=Project+1",
-  "https://placehold.co/400x300?text=Project+2",
-  "https://placehold.co/400x300?text=Project+3",
-  "https://placehold.co/400x300?text=Project+4",
+  "/business-site/media/pantry.jpg",
+  "/business-site/media/gates.jpg",
+  "/business-site/media/ceiling.webp",
+  "/business-site/media/sofa.jpg",
 ];
 
 export default function Home() {
@@ -42,7 +42,7 @@ export default function Home() {
         sx={{
           minHeight: { xs: "70vh", md: "85vh" },
           backgroundImage:
-            "url('https://placehold.co/1600x800?text=Hero+Image')",
+            "url('/business-site/media/home.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           position: "relative",
